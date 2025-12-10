@@ -92,7 +92,7 @@ except ImportError:
     sys.exit(1)
 
 APP_VERSION = "1.4"
-APP_TITLE = "ECH Workers 客户端 v{APP_VERSION}"
+APP_TITLE = f"ECH Workers 客户端 v{APP_VERSION}"
 
 # 中国IP列表文件名（离线版本，放在程序目录）
 CHINA_IP_LIST_FILE = "chn_ip.txt"
